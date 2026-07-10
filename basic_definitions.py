@@ -1,5 +1,7 @@
 # This is a basic neuron, with one input and one output
 
+import math
+
 class Neuron:
     def __init__(self, weight, bias):
         self.weight = weight
@@ -20,3 +22,18 @@ def loss_fn(prediction,answer):
     for i,j in zip(prediction,answer):
         total_loss += (i - j)**2
     return total_loss/len(prediction)
+
+# These are different activation methods for neuron outputs
+
+def step(output):
+    return 1 if output > 0.5 else 0
+
+def sigmoid(output):
+    return 1 / (1 + math.exp(-output))
+
+def relu(output):
+    return max(0,output)
+
+def tanh(output):
+    return math.tanh(output)
+

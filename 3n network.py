@@ -3,16 +3,20 @@
 # Failed Miserably
 # Best Loss: 4.8
 
+import random
+
 class Neuron:
-    def __init__(self, weight, bias):
-        self.weight = weight
+    def __init__(self, weight1, weight2, bias):
+        self.weight1 = weight1
+        self.weight2 = weight2
         self.bias = bias
 
-    def get_output(self,received_input):
-        return received_input*self.weight + self.bias
+    def get_output(self,input1,input2):
+        return input1 * self.weight1 + input2 * self.weight2 + self.bias
 
-    def change_values(self,weight,bias):
-        self.weight = weight
+    def change_values(self,weight1,weight2,bias):
+        self.weight1 = weight1
+        self.weight2 = weight2
         self.bias = bias
 
 def loss_fn(prediction,answer):
@@ -21,31 +25,64 @@ def loss_fn(prediction,answer):
         total_loss += (i - j)**2
     return total_loss/len(prediction)
 
-n = Neuron(1,1)
+def generate():
+    return round(random.randint(-500,500) * 0.01,1)
 
-info = {1:0,3:0,6:0,10:1,11:1,13:1}
+n1 = Neuron(1,1,1)
+n2 = Neuron(1,1,1)
+n3 = Neuron(1,1,1)
+
+info = {(1,1):1,(2,1):1,(3,2):6,(2,2):4,(-3,-3):9,(-2,2):4}
+
 best_loss = float('inf')
-best_pair = 0
+best_combo = (0,0,0,0,0,0,0,0,0)
+i = 0
 
-for weight in range(-500,499,1):
-    for bias in range(-500,499,1):
-        n.change_values(round(weight * 0.1, 1), round(bias * 0.1, 1))
-        prediction = []
-        for key in info.keys():
-            prediction.append(n.get_output(key))
+while best_loss > 1:
+    i += 1
+    weight11 = generate()
+    weight12 = generate()
+    bias1 = generate()
+    weight21 = generate()
+    weight22 = generate()
+    bias2 = generate()
+    weight31 = generate()
+    weight32 = generate()
+    bias3 = generate()
+    prediction = []
+    answer = info.values()
+    for x,y in info.keys():
+        n1.change_values(weight11,weight12,bias1)
+        n2.change_values(weight21,weight22,bias2)
+        n3.change_values(weight31,weight32,bias3)
+        prediction.append(n3.get_output(n1.get_output(x,y),n2.get_output(x,y)))
 
-        current_loss = loss_fn(prediction,info.values())
+    current_loss = loss_fn(prediction,answer)
 
-        if current_loss < best_loss:
-            best_loss = current_loss
-            best_pair = (n.weight,n.bias)
+    if current_loss < best_loss:
+        best_loss = current_loss
+        best_combo = (weight11,weight12,bias1,weight21,weight22,bias2,weight31,weight32,bias3)
 
-n.change_values(best_pair[0],best_pair[1])
-print('weight',n.weight,'bias',n.bias)
-test = [7,8,9,25,-10,-100]
-for i in test:
-    if n.get_output(i) > 0.5:
-        print(i,'big')
-    else:
-        print(i,'small')
+    if i % 10000 == 0:
+        print(best_loss)
+        print(best_combo)
+        print(i)
+
+print(best_loss)
+print(best_combo)
+
+n1.change_values(best_combo[0],best_combo[1],best_combo[2])
+n2.change_values(best_combo[3],best_combo[4],best_combo[5])
+n3.change_values(best_combo[6],best_combo[7],best_combo[8])
+
+test = [(3,4),(4,5),(-1,-1),(10,10)]
+ai_answer = []
+expected = [12,20,1,100]
+
+for x,y in test:
+    ai_answer.append(n3.get_output(n1.get_output(x,y),n2.get_output(x,y)))
+
+print('ai_answer:',ai_answer)
+print('expected:',expected)
+print('loss',loss_fn(ai_answer,expected))
 
