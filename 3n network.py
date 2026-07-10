@@ -1,4 +1,7 @@
-import random
+# Developed by TheLateV777
+# Intended to multiply numbers
+# Failed Miserably
+# Best Loss: 4.8
 
 class Neuron:
     def __init__(self, weight, bias):

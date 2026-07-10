@@ -1,3 +1,7 @@
+# Developed by TheLateV777
+# Intended to distinguish between big and small numbers
+# Success
+
 class Neuron:
     def __init__(self, weight, bias):
         self.weight = weight
