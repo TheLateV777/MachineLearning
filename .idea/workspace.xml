@@ -1,24 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e682096-a021-4cb0-897c-0e4c8b52cee2" name="Changes" comment="" />
+    <list default="true" id="8e682096-a021-4cb0-897c-0e4c8b52cee2" name="Changes" comment="added files">
+      <change afterPath="$PROJECT_DIR$/1n network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3n network (failed).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic_definitions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TheLateV777"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TheLateV777/MachineLearning.git",
+    "accountId": "4f8955b7-1679-449e-bd72-e71bbd985659"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000080217604" />
+      <entry key="MS500" value="1.035951564131193" />
+      <entry key="S2" value="1.9031529124031705" />
+      <entry key="S5" value="4.014781842977807" />
+      <entry key="S10" value="7.533795921719958" />
+      <entry key="S30" value="18.671315123549693" />
+      <entry key="S60" value="27.620297478385282" />
+      <entry key="M2" value="35.132965862208444" />
+      <entry key="M5" value="41.923013167542585" />
+      <entry key="M10" value="45.27093210198899" />
+      <entry key="M15" value="46.645063148776536" />
+      <entry key="M30" value="48.204976240750014" />
+      <entry key="H1" value="49.06949404467554" />
+      <entry key="H2" value="49.525995303949884" />
+      <entry key="H4" value="49.76074320858329" />
+      <entry key="D1" value="49.95980492881411" />
+      <entry key="W1" value="49.994249959075816" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9395227565988093" />
+      <entry key="MS500" value="1.0229921932946704" />
+      <entry key="S2" value="1.8964812679536263" />
+      <entry key="S5" value="4.0083125090664575" />
+      <entry key="S10" value="7.526611853093629" />
+      <entry key="S30" value="18.664471483972342" />
+      <entry key="S60" value="27.61506564784072" />
+      <entry key="M2" value="35.129567797084505" />
+      <entry key="M5" value="41.921335786229406" />
+      <entry key="M10" value="45.270000278610524" />
+      <entry key="M15" value="46.644414305984704" />
+      <entry key="M30" value="48.204635449351436" />
+      <entry key="H1" value="49.06931896868083" />
+      <entry key="H2" value="49.52590651109414" />
+      <entry key="H4" value="49.76069848704611" />
+      <entry key="D1" value="49.959797429063926" />
+      <entry key="W1" value="49.994248886539076" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4,
   "fromUser": false
 }]]></component>
   <component name="ProjectId" id="3GJ8cqb2mVstgr7VMt3YWAxgCgX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,9 +117,15 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -48,9 +143,38 @@
       <option name="presentableId" value="Default" />
       <updated>1783678394211</updated>
     </task>
+    <task id="LOCAL-00001" summary="added files">
+      <option name="closed" value="true" />
+      <created>1783678445972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783678445973</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added files">
+      <option name="closed" value="true" />
+      <created>1783678551737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783678551737</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added files">
+      <option name="closed" value="true" />
+      <created>1783678559413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783678559413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files" />
   </component>
 </project>
