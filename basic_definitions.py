@@ -37,3 +37,19 @@ def relu(output):
 def tanh(output):
     return math.tanh(output)
 
+# An improved version of the base neuron which can have multiple weights without any complexity
+
+class Revised_Neuron:
+    def __init__(self,weights:list,bias):
+        self.weights = weights
+        self.bias = bias
+
+    def get_output(self,received_input:list):
+        output = 0
+        for i in range(len(received_input)):
+            output += self.weights[i]*received_input[i]
+        return output + self.bias
+
+    def change_values(self,weights,bias):
+        self.weights = weights
+        self.bias = bias
