@@ -37,6 +37,9 @@ def relu(output):
 def tanh(output):
     return math.tanh(output)
 
+def relu_derivative(x):
+    return 1 if x > 0 else 0
+
 # An improved version of the base neuron which can have multiple weights without any complexity
 
 class Revised_Neuron:
