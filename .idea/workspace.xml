@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e682096-a021-4cb0-897c-0e4c8b52cee2" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/graph visualizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3n network 002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3n network 003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5n network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitness_nn_rewrite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2n network 002.py" beforeDir="false" afterPath="$PROJECT_DIR$/2n network 002.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_definitions.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_definitions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000000042" />
-      <entry key="S30" value="1.0000688038333658" />
-      <entry key="S60" value="1.026114348914096" />
-      <entry key="M2" value="1.5217002160896267" />
-      <entry key="M5" value="4.215153356642967" />
-      <entry key="M10" value="6.933385051357106" />
-      <entry key="M15" value="8.284914421995218" />
-      <entry key="M30" value="9.94945548980983" />
-      <entry key="H1" value="11.338167610628867" />
-      <entry key="H2" value="28.068217860869392" />
-      <entry key="H4" value="118.20304086423054" />
-      <entry key="D1" value="516.337764647232" />
-      <entry key="W1" value="670.9559786404955" />
+      <entry key="MS100" value="1.0000000000000002" />
+      <entry key="MS500" value="1.000711837783042" />
+      <entry key="S2" value="1.3042319686756116" />
+      <entry key="S5" value="2.3422763057204765" />
+      <entry key="S10" value="3.292275136562276" />
+      <entry key="S30" value="4.314514989138985" />
+      <entry key="S60" value="4.6400737458242896" />
+      <entry key="M2" value="4.815512767743796" />
+      <entry key="M5" value="5.00320174020873" />
+      <entry key="M10" value="9.17949958693779" />
+      <entry key="M15" value="22.250945479182754" />
+      <entry key="M30" value="78.65213864141512" />
+      <entry key="H1" value="159.27783497363464" />
+      <entry key="H2" value="229.0831736410899" />
+      <entry key="H4" value="280.1000729360809" />
+      <entry key="D1" value="674.0654341177169" />
+      <entry key="W1" value="1108.5236569853155" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="6.9711379430198E-191" />
-      <entry key="M2" value="1.2004436888828248E-95" />
-      <entry key="M5" value="2.2110828942065081E-38" />
-      <entry key="M10" value="3.6529191452686314E-19" />
-      <entry key="M15" value="1.0172371539422335E-12" />
-      <entry key="M30" value="3.040891625821462E-6" />
-      <entry key="H1" value="0.005439443619890199" />
-      <entry key="H2" value="0.2323744016036318" />
-      <entry key="H4" value="1.522944063632182" />
-      <entry key="D1" value="7.306722121815908" />
-      <entry key="W1" value="9.561595398041216" />
+      <entry key="S5" value="9.989716503326306E-208" />
+      <entry key="S10" value="3.1606512783485467E-104" />
+      <entry key="S30" value="3.1617354476809395E-35" />
+      <entry key="S60" value="5.623209552351807E-18" />
+      <entry key="M2" value="2.3879582888202793E-9" />
+      <entry key="M5" value="4.036661741693514E-4" />
+      <entry key="M10" value="0.025826241352270306" />
+      <entry key="M15" value="0.10735206507587568" />
+      <entry key="M30" value="0.45727292571464784" />
+      <entry key="H1" value="0.9530869999509626" />
+      <entry key="H2" value="1.3795237831550256" />
+      <entry key="H4" value="1.6843128867363277" />
+      <entry key="D1" value="5.588852783093875" />
+      <entry key="W1" value="10.650159429372428" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.25702845666401664" />
-      <entry key="MS500" value="0.7620724151698847" />
-      <entry key="S2" value="0.9343273468831804" />
-      <entry key="S5" value="0.9731944514082959" />
-      <entry key="S10" value="0.9865061841713432" />
-      <entry key="S30" value="0.9955495545620818" />
-      <entry key="S60" value="1.0236755306158825" />
-      <entry key="M2" value="1.5187654513892832" />
-      <entry key="M5" value="4.210137577530903" />
-      <entry key="M10" value="6.9288936294627215" />
-      <entry key="M15" value="8.281255392853428" />
-      <entry key="M30" value="9.947217001320503" />
-      <entry key="H1" value="11.342309965246114" />
-      <entry key="H2" value="28.298856071025494" />
-      <entry key="H4" value="119.72223925255636" />
-      <entry key="D1" value="523.6417834385854" />
-      <entry key="W1" value="680.5170735763797" />
+      <entry key="MS100" value="2.104047710876476E-12" />
+      <entry key="MS500" value="0.005161189674422975" />
+      <entry key="S2" value="0.5061039249597116" />
+      <entry key="S5" value="1.7840112424032066" />
+      <entry key="S10" value="2.922188150421493" />
+      <entry key="S30" value="4.159708362238066" />
+      <entry key="S60" value="4.557706930316897" />
+      <entry key="M2" value="4.772993854749544" />
+      <entry key="M5" value="4.986092161097444" />
+      <entry key="M10" value="9.192626679006148" />
+      <entry key="M15" value="22.34227951189016" />
+      <entry key="M30" value="79.08613967759625" />
+      <entry key="H1" value="160.20883549505083" />
+      <entry key="H2" value="230.4472308553439" />
+      <entry key="H4" value="281.77504984151227" />
+      <entry key="D1" value="679.6506583274261" />
+      <entry key="W1" value="1119.1729732588547" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -118,6 +118,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.2n network 002.executor": "Run",
     "Python.2n network.executor": "Run",
+    "Python.3n network 002.executor": "Run",
+    "Python.3n network 003.executor": "Run",
+    "Python.5n network.executor": "Run",
+    "Python.fitness_nn_rewrite.executor": "Run",
     "Python.graph visualizer.executor": "Run",
     "Python.hi.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -126,6 +130,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/Python/Projects/MachineLearning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,6 +138,11 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Python\Projects\MachineLearning" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -228,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783827666037</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added files">
+      <option name="closed" value="true" />
+      <created>1784207563547</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784207563547</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added files">
+      <option name="closed" value="true" />
+      <created>1784207578477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784207578477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
